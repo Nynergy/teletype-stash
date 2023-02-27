@@ -77,8 +77,8 @@ switch layouts.
 ### Octave Controls
 
 Now onto the bottom three buttons of the control column. These are for changing
-the octave offset of the Teletype's CV 1 output. These function very similarly
-to the temperament controls, in that you can increase/decrease the offset by 1
+the octave offset of the Teletype's CV outputs. These function very similarly to
+the temperament controls, in that you can increase/decrease the offset by 1
 octave (1 volt), or reset it back to the default (2 volts).
 
 ### Mode Controls
