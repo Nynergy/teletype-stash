@@ -9,9 +9,9 @@ conjunction with the Monome Grid. It takes inspiration from controllers like the
 [Lumatone keyboard](https://www.lumatone.io/), as well as other keyboards that
 use a Bosanquet-Wilson layout.
 
-What this means is that you can use 'shapes' to more easily and efficiently
-recall harmonic structures, much like you would on the guitar by moving a hand
-shape up and down the neck.
+What 'isomorphic' means is that you can use 'shapes' to more easily and
+efficiently recall musical structures, much like you would on the guitar by
+moving a hand shape up and down the neck.
 
 ## How do I use it?
 
@@ -27,7 +27,7 @@ how the keyboard layout works.
 The lightest keys (arranged in descending lines of 3 notes, then 4 notes) show
 the placement of the closest approximation for the major scale in a particular
 temperament. As you progress along the X-axis (left to right), you increase by
-one "whole tone". As you progress along the Y-axis (top to bottom), you increase
+one "whole tone". As you progress along the Y-axis (bottom to top), you increase
 by one "semitone". More on these values when we get to how we store temperament
 information in the Teletype's patterns.
 
@@ -78,8 +78,9 @@ switch layouts.
 
 Now onto the bottom three buttons of the control column. These are for changing
 the octave offset of the Teletype's CV outputs. These function very similarly to
-the temperament controls, in that you can increase/decrease the offset by 1
-octave (1 volt), or reset it back to the default (2 volts).
+the temperament controls, in that the upper button increases the offset by 1
+octave (1 volt), the lower button decreases the offset by 1 octave (1 volt), and
+the middle button resets it back to the default (2 volts).
 
 ### Mode Controls
 
@@ -121,7 +122,7 @@ enabled/disabled by the light level of its toggle button on the grid.
 ### Notes on Experimental (AKA Broken) Features
 
 Currently, _Bosanquet_ can properly display layouts for a small subset of
-tunings, while other tunings with more notes per octave (31-TET, 53-TET, etc.)
+tunings, while other tunings with more notes per octave (41-TET, 53-TET, etc.)
 don't render their light levels correctly. However, the scene will still
 calculate the correct microtonal pitch on key press, so if you don't mind having
 to navigate around the keyboard with incorrect light levels, you can feel free
