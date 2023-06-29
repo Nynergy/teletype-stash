@@ -8,9 +8,9 @@ The short and sweet ones, in six lines or less.
 
 Scene | Description | Video
 ------|-------------|------
+A Flood of Fireflies | Simple 4-voice Generative Sequencer | [Watch](https://youtu.be/DaPb9yL6Nhk)
 Lost in Snowdrifts | Modified Fractal Sequencer | [Watch](https://youtu.be/nsfDHr2bk4o)
 Saltwater | Cascading Burst Generator | [Watch](https://youtu.be/078r5EQJzNs)
-A Flood of Fireflies | Simple 4-voice Generative Sequencer | [Watch](https://youtu.be/DaPb9yL6Nhk)
 
 ## Notes
 
