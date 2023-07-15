@@ -47,8 +47,10 @@ where our 'beats' live, represented by the values 0 (rest), 1 (normal), and 2
 (generative). A rest will produce no trigger output for that step, a normal note
 will produce a trigger and set the corresponding CV out to the user-defined
 pitch at that step, and a generative note will produce a trigger and set the
-corresponding CV out to a random note within the first 12 degrees of the
-user-selected scale.
+corresponding CV out to a random note within the first X degrees of the
+user-selected scale. In this case, X is determined by the position of the PARAM
+knob. The PARAM knob is scaled from 0 to 24, with 0 being all the way left, 24
+being all the way right, and 12 sitting directly at 12:00.
 
 You can go into the pattern data and set these steps to 0, 1, or 2, but that's a
 bit tedious. Rather, the meadow is actually a set of buttons that allow you to
@@ -119,9 +121,9 @@ go in afterward and manually change some of the steps using the meadow buttons.
 The second set of buttons from the right is a similar column of two-wide
 controls, but instead of generating beats, it will generate a random pitch
 sequence for the chosen sequence. This generated sequence will use scale degrees
-0 to 12, inclusive, and just like the other generative controls, you can always
-go into the pattern data afterward and modify the generated sequence to your
-liking.
+0 to PARAM value (see section on Sequence Display), inclusive, and just like the
+other generative controls, you can always go into the pattern data afterward and
+modify the generated sequence to your liking.
 
 #### Hocketing Controls
 
