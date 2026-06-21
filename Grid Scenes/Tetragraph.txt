@@ -8,20 +8,32 @@ GRID AND FADERBANK
 
 
 #1
+L 1 16: G.BTN.L I 3
+J PN 0 2; G.BTN.L J 8
+K PN 0 0; K ? EQ K 0 16 K
 A 65; B 66; C 70; D 71
-$F2 7 0 1
+$F2 7 0 1; G.BTN.L K 15
 
 #2
+L 17 32: G.BTN.L I 3
+J + PN 1 2 16; G.BTN.L J 8
+K PN 1 0; K ? EQ K 0 32 + K 16
 A 72; B 73; C 77; D 78
-$F2 7 1 2
+$F2 7 1 2; G.BTN.L K 15
 
 #3
+L 33 48: G.BTN.L I 3
+J + PN 2 2 32; G.BTN.L J 8
+K PN 2 0; K ? EQ K 0 48 + K 32
 A 79; B 80; C 84; D 85
-$F2 7 2 3
+$F2 7 2 3; G.BTN.L K 15
 
 #4
+L 49 64: G.BTN.L I 3
+J + PN 3 2 48; G.BTN.L J 8
+K PN 3 0; K ? EQ K 0 64 + K 48
 A 86; B 87; C 91; D 92
-$F2 7 3 4
+$F2 7 3 4; G.BTN.L K 15
 
 #5
 P.N / - G.BTNI 1 16
@@ -38,7 +50,7 @@ IF G.BTN.V C: BREAK
 P.N I1; J ? G.BTN.V D IN FB P 2
 CV I2 QT.B + J V P 1; TR.P I2
 K ? G.BTN.V A RND 15 P 0
-IF G.BTN.V B: K * K -1
+IF G.BTN.V B: BREAK
 P 2 WRP + P 2 K 1 16
 
 #8
